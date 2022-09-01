@@ -12,7 +12,7 @@ function About() {
             <>
                 <div className="text-center my-4">
                     <h2>
-                        <Link to="/">Item əlavə et</Link>
+                        <Link to="/">Ana səhifə</Link>
                     </h2>
                 </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap";
-import { Link, useHistory} from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import ShowDataApi from "./ShowDataApi";
 
 function Home() {
@@ -47,7 +47,7 @@ function Home() {
             <section>
                 <div className="text-center mt-4">
                     <h2 onClick={showItems}>
-                        <Link to="/About">Items table</Link>
+                        <Link to="/About">Local Storage cədvəli</Link>
                     </h2>
                 </div>
                 <Form className="py-1 my-5 mx-auto d-flex justify-content-center">
@@ -65,8 +65,9 @@ function Home() {
                     </Button>
                 </Form>
             </section>
-            <section>                
-                <ShowDataApi/>
+            <section>
+                <hr></hr>
+                <ShowDataApi />
             </section>
         </>
     );

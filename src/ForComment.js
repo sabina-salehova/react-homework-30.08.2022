@@ -18,7 +18,7 @@ function ForComment() {
             <Container>
                 <div className="text-center my-5">
                     <h2>
-                        <Link to="/">esas sehifeye qayit</Link>
+                        <Link to="/">Ana səhifə</Link>
                     </h2>
                 </div>
                 <Table striped bordered hover>
