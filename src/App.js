@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import About from './About';
 import Home from './Home';
+import ForComment from './ForComment';
 function App() {
   return (
     <Router>
@@ -16,7 +17,10 @@ function App() {
           </Route>
           <Route path="/about" exact>  
           <About />
-          </Route>                 
+          </Route> 
+          <Route path="/ForComment" exact>
+            <ForComment/>
+          </Route>              
         </Switch> 
             
     </Router> 

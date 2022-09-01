@@ -1,23 +1,16 @@
 import React from "react";
-import { Router, useHistory, useLocation } from "react-router-dom";
-import { Table, Button } from "react-bootstrap";
+import { useLocation } from "react-router-dom";
+import { Table} from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 
 function About() {
-
-    //const {state: stateFromHomePage}=useLocation();
-    
-
     {
         const { state } = useLocation();
-        const { push } = useHistory();
-
-
 
         return (
             <>
-                <div className="text-center">
+                <div className="text-center my-4">
                     <h2>
                         <Link to="/">Item əlavə et</Link>
                     </h2>
